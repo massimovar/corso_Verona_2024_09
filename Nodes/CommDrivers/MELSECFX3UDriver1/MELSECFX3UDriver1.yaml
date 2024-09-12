@@ -1,0 +1,4 @@
+Name: MELSECFX3UDriver1
+Type: MelsecFX3UDriver
+Children:
+- File: MELSECFX3UStation1/MELSECFX3UStation1.yaml

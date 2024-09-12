@@ -1,0 +1,51 @@
+Name: MELSECFX3UStation1
+Id: g=ad66f29871d8ae9a4d76ccbb09717c38
+Type: MelsecFX3UStation
+Children:
+- Name: MaximumJobSizeInBytes
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 128
+- Name: MaximumGapInBytes
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 32
+- Name: IPAddress
+  Type: BaseDataVariableType
+  DataType: String
+- Name: Port
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 1034
+- Name: Timeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:5.0000000"
+- Name: OperationCode
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+- Class: Reference
+  Target: ns=17;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=17;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=17;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=17;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=17;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=17;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml
