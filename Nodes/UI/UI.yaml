@@ -390,5 +390,124 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
+  - Name: ApriPopup
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/corso_Verona_2024_09/Model/Popup"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: ApriPopupTransitioned
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../ApriPopup"
+    - Name: VariableTransitionEventHandler1
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/UICommands"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=2;Method
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "OpenDialog"
+          - Name: InputArguments
+            Type: BaseObjectType
+            Children:
+            - Name: Dialog
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogDescription"}
+              Value: "/Objects/corso_Verona_2024_09/UI/Screens/DialogBox1"
+            - Name: AliasNode
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":3,"TextId":"OpenDialogAliasNodeDescription"}
+              ValueRank: ScalarOrOneDimension
+            - Name: ParentItem
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":3,"TextId":"OpenDialogParentItemDescription"}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../..@NodeId"
+          - Name: OutputArguments
+            Type: BaseObjectType
+            Children:
+            - Name: DialogNodeId
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogNodeIdDescription"}
+      - Name: EventArguments
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Type: BaseVariableType
+          DataType: NodeId
+        - Name: NewValue
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Type: PropertyType
+          DataType: UInt16
 - File: Screens/Screens.yaml
 - File: MyWidgets/MyWidgets.yaml

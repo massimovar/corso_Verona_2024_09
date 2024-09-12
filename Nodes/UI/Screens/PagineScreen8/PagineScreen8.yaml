@@ -1,0 +1,66 @@
+Name: PagineScreen8
+Type: FolderType
+Children:
+- Name: Pagina1
+  Id: g=af0bde7f452a325fba6bed538f393647
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../..@BrowseName"
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
+- Name: Pagina2
+  Id: g=a0d3dd01b8936a8b64534ef0411038bf
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../..@BrowseName"
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
+- Name: Pagina3
+  Id: g=68a5569489b4ca9d9fbc3fd561a3e0e0
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../..@BrowseName"
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0

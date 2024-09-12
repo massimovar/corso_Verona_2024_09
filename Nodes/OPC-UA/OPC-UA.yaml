@@ -20,7 +20,7 @@ Children:
         - Name: Node1
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/corso_Verona_2024_09/Model/motors"
+          Value: "/Objects/corso_Verona_2024_09/Model"
           Children:
           - Name: Kind
             Type: PropertyType

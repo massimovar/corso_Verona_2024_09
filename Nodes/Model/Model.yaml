@@ -1,29 +1,36 @@
 Name: Model
+Id: g=e43c6f550b4f0fd5590ad017531055dd
 Type: ModelCategoryFolder
 Children:
 - Name: start
+  Id: g=1c8b22417b8f188bf5769c365b6fc5b5
   Type: BaseDataVariableType
   DataType: Boolean
   Children:
   - Name: DynamicLink
+    Id: g=102dcc716c0d7685c2c2cb93920d6d4c
     Type: DynamicLink
     DataType: NodePath
     Value: "../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/bStart"
     Children:
     - Name: Mode
+      Id: g=62653b29d723e6a7cb056a0da0189326
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: incrementa
+  Id: g=5c61b58c9583aff12ca94975971035c5
   Type: BaseDataVariableType
   DataType: Int32
   Children:
   - Name: DynamicLink
+    Id: g=a2f707eed886834e635ddda90fe79641
     Type: DynamicLink
     DataType: NodePath
     Value: "../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/incrementa"
     Children:
     - Name: Mode
+      Id: g=d17cb2b56b5f71135213759e27a142a9
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
@@ -33,14 +40,25 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: Variable2
+  Id: g=e55799526917e7c4d6079129840cd944
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: Variable2Changed
+  Id: g=463221c20a5ebfe0a67ead330768134f
   Type: VariableChangedEventDispatcher
   Children:
   - Name: VariableNodePath
+    Id: g=44defd55e57fcf0dbbcabbcee34669c1
     Type: BaseVariableType
     DataType: NodePath
     Value: "../Variable2"
 - File: types/types.yaml
 - File: motors/motors.yaml
+- Name: Allarmi
+  Id: g=8becc1094e066873e8269c0c0531cbee
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Popup
+  Id: g=f6df0ac6d52e09f4af3e4763d3715c34
+  Type: BaseDataVariableType
+  DataType: Boolean

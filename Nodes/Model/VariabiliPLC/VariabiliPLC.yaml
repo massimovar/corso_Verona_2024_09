@@ -3,2324 +3,2874 @@ Id: g=1ccb532adcc311c958974caea0439552
 Type: FolderType
 Children:
 - Name: PLC_PRG
+  Id: g=1048ba0127deba41121899dcda0a4211
   Type: BaseObjectType
   Children:
   - Name: arrayBit
+    Id: g=761a318f650d4f56234a116f03befc65
     Type: BaseDataVariableType
     DataType: Boolean
     ValueRank: OneDimension
     ArrayDimensions: [10]
     Children:
     - Name: DynamicLink
+      Id: g=5a0ae188a902e29330d7ee48271f8883
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayBit"
       Children:
       - Name: Mode
+        Id: g=dfbd67984e5d31cfdbee2cba5052bd1f
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: arrayFloat
+    Id: g=23c5c2d18b2f93c7a1ecc682185a15be
     Type: BaseDataVariableType
     DataType: Float
     ValueRank: OneDimension
     ArrayDimensions: [11]
     Children:
     - Name: DynamicLink
+      Id: g=7502fa1c031912fad54fa121f271026a
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayFloat"
       Children:
       - Name: Mode
+        Id: g=1e216a68e1ea45f6873bd02fe17bf3ca
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: arrayMotori_0
+    Id: g=cca73bc73e6e437dd0304e9651883374
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=01d11458f3ad7436937f07e0b8e00706
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=554396f8a1e06c5a96566710fa555df6
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/0/frequency"
         Children:
         - Name: Mode
+          Id: g=f7213997e18e40b8d0bc05ea446b0878
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=b919426da0d1a667b9355db5d3e316f2
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=adb59c8ec859b14f16ceed371b83ef38
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/0/nome"
         Children:
         - Name: Mode
+          Id: g=8c14f0901748c8223667898833b8d239
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=cd9afe99e2650ea1de139c3e8392cff6
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=65ee6f99df9ec6569aeebd732f433b5b
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/0/speed"
         Children:
         - Name: Mode
+          Id: g=320473196a5dd692437df1562498a896
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_10
+    Id: g=248178b6dd9c8c9326777a05a791b026
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=2ae471d6c3d6236b837d3fc63dbf6b5b
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=5433311d97e3db1ae27f0e634513de34
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/10/frequency"
         Children:
         - Name: Mode
+          Id: g=5cca470617836f9d89194b8eacaf2254
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=f8ee21ac2d29098e298afb7d35ae98cd
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=b11e70c8b58978249838e61a930d1cd0
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/10/nome"
         Children:
         - Name: Mode
+          Id: g=0ba9d1e12bfcc7ba6b327295167227b2
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=e9c3068a532ca7956b07add7e5c49215
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=a865af187ffeddea4e06540e6ae92541
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/10/speed"
         Children:
         - Name: Mode
+          Id: g=e5abdfd5d405e5e7a78a002d7e65e370
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_11
+    Id: g=3147a65127316634ba786368c3381e5c
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=5d0b3a1df12bdfa4514d36b71de487ff
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=eed0572f8834321dfdc0c9ea9fc2e2f8
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/11/frequency"
         Children:
         - Name: Mode
+          Id: g=b67c98a89fb0b2dd2cc3e9d4e3bbbc94
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=bc60a967da91dea0da1e11494362421d
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=f818c6faf395f663eee5c341d74e35bc
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/11/nome"
         Children:
         - Name: Mode
+          Id: g=2b7a2673284496748dcac7ac9adf25cb
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=b364f3998cfce15ff0fc44ebdf61e153
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=cd9af3e6e38dfac6f6f02ddf08bfa2d9
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/11/speed"
         Children:
         - Name: Mode
+          Id: g=16dc4dd651e2bc16983a6ae00e0a1b49
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_12
+    Id: g=849e582ab4b208823eb64c94143d2f8c
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=219cebc9dd3ff2f8421f5793e265befc
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=68d8357c50342814692249d857def695
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/12/frequency"
         Children:
         - Name: Mode
+          Id: g=5b650b66e11de70e0af444df1d2a9146
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=92073d10963552c3cdeda87855aba4b8
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=151c99badc83ac8ca77351236bd481b6
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/12/nome"
         Children:
         - Name: Mode
+          Id: g=8cb0a5b0ec2fb744e087192db7f9b894
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=6708ba0b42538a743c21541c79240eb9
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=615547e9044f525b0519bb918d9890b3
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/12/speed"
         Children:
         - Name: Mode
+          Id: g=b35dd4f1ba0f3abb6d86ad6dd6b6c363
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_13
+    Id: g=7284a01ac0fb05671e31e51b418d771c
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=4b20f725319499ff18fe598bf79ce606
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=dfebe8125ec8047f73368307c8fabad6
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/13/frequency"
         Children:
         - Name: Mode
+          Id: g=a381da08caf51a71abc71d389b8557b0
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=8024e25a48e82c883a391516206b2467
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=c7e6238c1168c175a7a7c7d75e33e4fc
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/13/nome"
         Children:
         - Name: Mode
+          Id: g=6677de8b95eb8fef00d73e0752ec8783
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=8c77c7d6271aed92450d514c47fc355a
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=5834d2a04bf34f5af70ad5e0bd6c5a47
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/13/speed"
         Children:
         - Name: Mode
+          Id: g=14e0eb5ed524ae1263d6a065216d3b37
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_14
+    Id: g=d6a2d91d245c46c5be5760f888947854
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=eb9d45793072264ee06a40814f0602eb
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=c55957f89c4cfa8f0cbdbd3826d4f98c
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/14/frequency"
         Children:
         - Name: Mode
+          Id: g=c3127812413db24f5b3aaba76e30dc9c
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=ae22b7c51113265a91e270245a13d76f
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=093332e887a5da662b19f36290400b67
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/14/nome"
         Children:
         - Name: Mode
+          Id: g=98df145c0aea83cd5f9f548d279eff2a
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=dca46d7b915bead662fb9ec907212752
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=89af144383ad0a85517113da519e5760
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/14/speed"
         Children:
         - Name: Mode
+          Id: g=1adb5413beb9fdeb9de717256f0843bd
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_15
+    Id: g=e1ccd9de224c58359ac0b72a778deb72
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=7b8b2d823f773c6d2f354e40b20d4275
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=a13b6f4e2222a552a91beabcf62d0913
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/15/frequency"
         Children:
         - Name: Mode
+          Id: g=2d7578495d05b9f0b6cb563145a98d78
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=f3930dd231ffcaf2c28af9c804f18f84
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=7a0279932ff25c534b2faca50f4722d6
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/15/nome"
         Children:
         - Name: Mode
+          Id: g=1057612e88853dc63959a17b936e1344
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=57e4d746824c243c08375ef3926eace1
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=10f73bfc5f0ae9a5e186c4681cd64e6d
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/15/speed"
         Children:
         - Name: Mode
+          Id: g=1da44c8657213d71c18a0b4834d3fc9d
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_16
+    Id: g=daa2fbbb244a280ef5ef20e65c63cbef
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=b94b1d8806af5377e508fffee850cdcf
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=5853e84ae5d63ee06f43f950b297330a
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/16/frequency"
         Children:
         - Name: Mode
+          Id: g=ec0332b7ce140ba230c9ff6c9a041ea5
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=a5e5fd71da28d18f12ea42205285bb0c
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=1feac7e664661b0fec0cb5f1d369b88a
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/16/nome"
         Children:
         - Name: Mode
+          Id: g=97d359feb8bac1b945a83b20606ce959
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=60bdecde7f3272316a30d2b04e5aa2d5
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=7d7d32d1e7f45b0e0d38af40eeb3d8c4
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/16/speed"
         Children:
         - Name: Mode
+          Id: g=d8b4b3739115917303827d8b9d560dfb
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_17
+    Id: g=77b42455488115443808cfbe9a2b4d71
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=c0bd5b40a2450ab1c0d0bc43b0c13c52
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=a2aa0cee0a920e375140f3dcf914f770
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/17/frequency"
         Children:
         - Name: Mode
+          Id: g=dc4f1ab121c0b76c35cdcaf309363268
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=eb02c3e63b0cfdb277620eb3a3cf61f5
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=35c8bbd02686047798f6e268e603ed52
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/17/nome"
         Children:
         - Name: Mode
+          Id: g=55647299bb4c6d7e244639e6e43d1ed8
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=34a0b3fcef769dd8ad1883169a9e9269
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=156b8d6fa2d9889fc7a337a6dd0e2d9f
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/17/speed"
         Children:
         - Name: Mode
+          Id: g=8dd1bcca322a3f9598f0deac61aa1dcc
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_18
+    Id: g=b3fa00c75fc0f1c4112b0ea3fd98cfd1
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=eee75d838213dbe4425f93d0e748e9c2
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=22bfa954ed52d331dae583269499d9cf
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/18/frequency"
         Children:
         - Name: Mode
+          Id: g=1a8596dc55c3a2b53a894c7cbc828894
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=9a9528b57f72918d8690028fdf537579
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=9bf5a3b3892d6cd6319fe3394a2ebb0a
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/18/nome"
         Children:
         - Name: Mode
+          Id: g=86f9181217f45acfc02cd66ea0886693
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=295771b8b1c5fc352078e6b99e025e0f
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=96db19e533d0f50f8a0c045c483a27cd
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/18/speed"
         Children:
         - Name: Mode
+          Id: g=9445548cafc96d2eed304ac784ca3da6
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_19
+    Id: g=50fa2dc4b26150599fa196e32306053a
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=d2b42941b5a890bc14f55fe02facdd87
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=65d7873614ebb797f4a1aef30f7c4965
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/19/frequency"
         Children:
         - Name: Mode
+          Id: g=1b1f2f3422ffa4551e24f0f0bbd3969b
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=f9b40f410ab0af31eec4a4b14d72e6d4
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=aadfbf1c26bdf52d598da74c44926d5b
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/19/nome"
         Children:
         - Name: Mode
+          Id: g=84258ba046965ac29f0266ed763ea63c
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=a5ee0136b1008e6e891226a42a484500
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=da77d13ba610fea72a39b6ed74132431
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/19/speed"
         Children:
         - Name: Mode
+          Id: g=8191ea06d7cb7e69155ef62313570e58
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_1
+    Id: g=2072d559c92069b56cf14cc13e3d535d
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=b2f2d25e69fe598dc02e60bf0273dad0
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=09a7fa69fc70ddf4759a73f051b62949
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/1/frequency"
         Children:
         - Name: Mode
+          Id: g=9529a6a64624f19a95b6f2675d328c30
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=95c3f2b06c4aedf2a8832c4ae526e6a9
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=95dbbc1e9ff330ca665b6bb310102034
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/1/nome"
         Children:
         - Name: Mode
+          Id: g=c075db5fa45428ef3e1290836af64038
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=a502991b7fe0780305d1811b95156c72
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=35ac32c8298e4cca6d7113328b2b921e
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/1/speed"
         Children:
         - Name: Mode
+          Id: g=706a01ef93a86d0b9b01ae1fe29a5ccf
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_20
+    Id: g=b800373deeeb05f466ab43631cff857f
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=0dac4d81225e8f95f4b5b1357adaa401
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=8271a37630acdcf8c4ce56eae446d55a
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/20/frequency"
         Children:
         - Name: Mode
+          Id: g=23f58ecd3364191bc7905de08422d7f1
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=64be54d033f5bb6e92393ed942f584ff
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=55a7c1a90810576f3d2aa0883eff4052
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/20/nome"
         Children:
         - Name: Mode
+          Id: g=eead27527f843082a4771934bbb0858f
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=15c798a5853abd3299ee8661bab66dd2
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=7a3511836373f3974f2114c74cb27156
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/20/speed"
         Children:
         - Name: Mode
+          Id: g=cd9820ed0ec49131bf4cbd58e6b1f01e
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_21
+    Id: g=5ebbc2da47cfb1b02f33c69848fe56b8
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=b0b1f0d27406135f63d3c2636356bd39
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=0c6a8672150fd3609e1aadaa1286aa04
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/21/frequency"
         Children:
         - Name: Mode
+          Id: g=b9d00b525c5ec9727551472655876d20
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=647672e1a01fb4d6406670841ac86a21
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=720b56c39ddb33633bc03670c0ead599
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/21/nome"
         Children:
         - Name: Mode
+          Id: g=984b144d75845e52238f283744bbb8b6
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=6ff0da87cadd45da6bb7e6bc1dc5eb3c
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=f04f08b49dbac8c1d898d74eda215427
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/21/speed"
         Children:
         - Name: Mode
+          Id: g=42663e5835ab42b96968236738a9d1b7
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_22
+    Id: g=cc395886937b5a5e8cc936dc43f42e2c
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=a63918fc0ced7933c82ac5be30a68fb4
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=aa2414d0d0a3a9df6080c99c7eda6803
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/22/frequency"
         Children:
         - Name: Mode
+          Id: g=7285d44602b27e83857969dc47d73700
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=ba9576a42c6bd9a7498545437872b091
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=60bb3fa1fa04a06aeed74488b3ddeae2
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/22/nome"
         Children:
         - Name: Mode
+          Id: g=c044dd98fa150513e8c25155efd83682
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=ba4ec5082ecf8ad5971d248e63eac7b8
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=0361b7c0a84b6d35db80abee99c85032
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/22/speed"
         Children:
         - Name: Mode
+          Id: g=267f32ee7d6242cd1a563230d89d93ad
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_23
+    Id: g=ccec137c486954281ae263681b8a09ba
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=c4ca21740ae5ec8804b280d008c40515
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=f2bf2b21116903600c6137d79f8c6620
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/23/frequency"
         Children:
         - Name: Mode
+          Id: g=bf98ab7d5af819e6ef3ccb4f56181215
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=8df4c80330bfa6909aa51ea379de1967
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=06b0d18646e34165720a00521cf6ba3b
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/23/nome"
         Children:
         - Name: Mode
+          Id: g=680d67e49ad84e17d5453d6633fffe26
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=935eff1bfbc5a6d23d157b8e6f9890ef
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=74c43ce56815695ec9f7e7af5d010d5a
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/23/speed"
         Children:
         - Name: Mode
+          Id: g=8a31faf43610d470bcd6175336fa9cc3
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_24
+    Id: g=a40fdcc29f33ac521c3e7b9b2843d1fd
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=35603a17162f652adc37dc10c831d0a4
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=4ba4a960cea88037d02cb8a4e8ff0af0
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/24/frequency"
         Children:
         - Name: Mode
+          Id: g=fd20c9dfc19bbf2116be91664e16d647
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=8c6fc608790a26e43627d2465eed355f
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=ea73de2094557bbea289e5717f91f1cd
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/24/nome"
         Children:
         - Name: Mode
+          Id: g=5d3665d4ac50f36976904309a14c6497
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=72ee6fc5869aaf98f0f390b9018bcfec
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=c2acea8765d32b3d63390c65d03c8d8c
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/24/speed"
         Children:
         - Name: Mode
+          Id: g=9463c1fc1320117bb5886fe9b3541fd5
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_25
+    Id: g=9cef0c39d738fa7d3feff8234a988872
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=3d3e67f907a26846054b1b7b1e81785c
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=326756f0c95ad01341fd4977dd3828b8
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/25/frequency"
         Children:
         - Name: Mode
+          Id: g=15210855c427af1aae4b10575739c56b
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=a340140bf951588f8ea8b9319dd2728b
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=ebf202605cc1ad56944fdd0ff73467fd
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/25/nome"
         Children:
         - Name: Mode
+          Id: g=29a886760ae47ded0414487b98e18494
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=0d2b53d125b551d031be5d187d9e71ec
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=00b2ca93295bff5ef968e2195c902fbc
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/25/speed"
         Children:
         - Name: Mode
+          Id: g=b1b390b64df2f4475158d1aeb833d472
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_26
+    Id: g=de29f5bf11e8a515eb17cbf2c5519fe8
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=fd87a821e1e38dc1a3da4a80d3d92395
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=f826d0be543b4e66bf86ca816b271811
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/26/frequency"
         Children:
         - Name: Mode
+          Id: g=eb9e5ba5664b05f7d60e8087766b76eb
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=fd25f7eb17dda3e346ed0f931be9fba5
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=8ccfea8764ab8323aa464b4b912fc873
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/26/nome"
         Children:
         - Name: Mode
+          Id: g=7868264c4524d48e5e0354e88000ba9f
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=e4e5a62e993463ce986fe78d989ffa83
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=1d31671254c61e643339c2237a13d09c
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/26/speed"
         Children:
         - Name: Mode
+          Id: g=c590753876f7af548f952d9a0470dcd0
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_27
+    Id: g=750ad00bc96bc8ff170cb70baae5deb7
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=ed74d3ebf7c55a10d6f7f8f193e54d86
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=401746d8748fb0668f85b0c1f1ca2b25
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/27/frequency"
         Children:
         - Name: Mode
+          Id: g=e3522eef500283bd174de67fff65506e
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=c3286e88b41387c156d1bf88ee871994
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=5868c34e53ed45454a776d8a71f0381b
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/27/nome"
         Children:
         - Name: Mode
+          Id: g=4f98f79a2896bafd963e7e64baecf85e
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=2fc8a9c91e7128037bf16c6001278750
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=1760e7d302d01ced468e1ea82a602173
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/27/speed"
         Children:
         - Name: Mode
+          Id: g=043ef4ad735ad9c6904b70b3520a0ff0
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_28
+    Id: g=97cc36d370fb5d06218d88e52196a014
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=1aa9e863a4f8bac3919d26a291f150b5
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=838b53c3209fdb6fdccba7fb53dc72f3
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/28/frequency"
         Children:
         - Name: Mode
+          Id: g=9c57b3b79b82680a73647d80b2d529bf
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=6d0d0f873cfade40d8d380195e98e020
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=bc5c67fc2619d9ba5c9b8640043f3387
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/28/nome"
         Children:
         - Name: Mode
+          Id: g=07c59fba2945be9d5892d891c542423f
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=d55e0ee2ad4da0f4bda877f8c4029b25
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=9c594349eebb2e198061c1abd44520df
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/28/speed"
         Children:
         - Name: Mode
+          Id: g=c9aab2fd4096d751a6e8f5af13a720d8
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_29
+    Id: g=eeb9092d9dc7d79c6676cd1c515cf2c9
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=85b0d5be71dc2f46dbb4d56b758c73f8
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=4463bf60ea013a1e86a80cfbdb7723ab
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/29/frequency"
         Children:
         - Name: Mode
+          Id: g=5b1acb17a9cfa917f12bdbdd8de0bc0f
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=27f723c1acec093320e2c2861692fc6a
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=4d652e96f79963bcaa6bb203ed1144be
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/29/nome"
         Children:
         - Name: Mode
+          Id: g=f63e22e50f54d9f609cf1ec4f0cc4ae7
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=3097b2564b1f0806c68e3f25ab1abb80
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=1ceb8c3cf6c3f47917b2e059f7c8bfaf
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/29/speed"
         Children:
         - Name: Mode
+          Id: g=5ffcf9c89a5394c05f331377e901f0bf
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_2
+    Id: g=109931abbb327be752ce2e22d8301f80
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=176459fccca39f1bf172c36601fc1c99
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=6400488431687d2b4b60462d35f2a3cc
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/2/frequency"
         Children:
         - Name: Mode
+          Id: g=d0452f434fa396d821c15e95b403e0da
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=c049ffe91b8fedec483807e8b5716937
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=49f3652c86a744d6734fd088c0105ba2
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/2/nome"
         Children:
         - Name: Mode
+          Id: g=2a86451e24098e09c9645fe8fcf25fb2
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=b1044447b6c4b9b36c08916b283653b8
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=6b069a8ac95165895947dd11c6502843
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/2/speed"
         Children:
         - Name: Mode
+          Id: g=ed3a4bd2f71381c84339f94885729803
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_30
+    Id: g=e1ecc1297d62aa2a6b85579d3e983eb8
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=07c3e7c325b5d39ba375698443e092a9
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=80989e5956017bbf2515e6dfe24713e7
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/30/frequency"
         Children:
         - Name: Mode
+          Id: g=a3c5f1218b05709093bb16042fba3931
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=5165a436804eb88f8fac4eb00c5be48d
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=6bc9770c58b05ea07ea4a0e1017d45a1
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/30/nome"
         Children:
         - Name: Mode
+          Id: g=1331e3dc20cff3e01237b3f4160c53b3
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=2061a67b2795618ee1332959cfdaf6fe
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=e2f5a96dc68aa23443a6f8fb932a79da
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/30/speed"
         Children:
         - Name: Mode
+          Id: g=85c6e18e3d373ac531a906bc6728a86b
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_31
+    Id: g=0fac24697fc110699560af47375f32a7
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=0827cc037bb729a9e1abc4c333a983b1
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=88df6bf7f3ffab0073273a12336c07fc
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/31/frequency"
         Children:
         - Name: Mode
+          Id: g=fe31dad22ffa64569f15da78385a7aee
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=cc5d8cbdd005ba9ab6e62cd038e03a59
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=a80063619f1f71aa5c110499a8b6e1c9
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/31/nome"
         Children:
         - Name: Mode
+          Id: g=8c621f7c645a0714ca5fa9c6be431b42
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=eeabde875c8f178d19a37bbcd477fae6
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=5a2a26c2e0577db1e2506f98bce01932
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/31/speed"
         Children:
         - Name: Mode
+          Id: g=0c47fad3e294dfedbd356a503eec2031
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_32
+    Id: g=e462ee718a9ad2dda0f10973945c8233
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=8c39862ad31b35cfc81a1df1818aa7fe
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=e33d636b76b1d9e0db5e7ec247db40ad
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/32/frequency"
         Children:
         - Name: Mode
+          Id: g=b30f97e5d78f708f430eef3f1ed7eb62
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=f5206bde4f87ac9a10991f51e577f465
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=a60fc45f027f063eb1a2f90edcf7b3a1
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/32/nome"
         Children:
         - Name: Mode
+          Id: g=ec5b097cf2590bccb151f268293b7a76
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=935d87203a7a8410b737851abca9d582
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=1f7cdc30974266259619ba8bb33d12f7
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/32/speed"
         Children:
         - Name: Mode
+          Id: g=6dbfe78742f50cb4276d34be59101f96
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_33
+    Id: g=e48be5ea51658d2bd5d5851359d12761
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=3d540892cac925c25a49ad6304e5cbb5
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=9d2f6ffe02953349da55aade87577a9f
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/33/frequency"
         Children:
         - Name: Mode
+          Id: g=1cf3c24fe886ac9400b569aacd7af638
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=f58262296b7d398cbc94f9413f3660db
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=c28d774be2276280e912ee9208628f37
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/33/nome"
         Children:
         - Name: Mode
+          Id: g=b2dcd50f9304541c8bcf1823e495480e
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=e7d2918ad8809eb9f802cc3ad811b4b9
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=a3f8c6fb50e164b91ea0c5ba9eda7ed0
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/33/speed"
         Children:
         - Name: Mode
+          Id: g=ebf9924a3977fed1c451393ae183d7ea
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_34
+    Id: g=502679b9e96d44fc09299558f0203585
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=d9ee4620493bee527180b77697591092
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=b07b9b8b534239c8a8e21b74b8182c90
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/34/frequency"
         Children:
         - Name: Mode
+          Id: g=f0a01c4d0f3230a983084c0d521e42d9
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=fa002cf6279744c3c933c5cd3e749677
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=a8611e3380f800c438a3fb267512b52a
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/34/nome"
         Children:
         - Name: Mode
+          Id: g=577ca88f85c61e3c1f52d568d3dc38db
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=60e833d3cf01e3926e464e557b5390d8
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=162cc4991f63ac48f485dfb2edd46ee8
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/34/speed"
         Children:
         - Name: Mode
+          Id: g=afdb86d1789ebdee3bde10a05d5fe884
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_35
+    Id: g=3e31b9e7ecd958ca257b96a1666d9179
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=e51952b29ac7c4c138e502fcca248967
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=b0178368d61d0a679eb872e43d76fa56
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/35/frequency"
         Children:
         - Name: Mode
+          Id: g=a00574942ecb1fb97723a5f696ff2222
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=11440c604364d8a9017e7fc9053fa179
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=ba8603547cc544020d15938dd4c138ec
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/35/nome"
         Children:
         - Name: Mode
+          Id: g=73dd3076e9ace4bbaec2b76d562c54aa
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=f87fb1f54bfc48018a043faaba671f70
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=f66f90e1de662a5784235b82fe4a11b5
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/35/speed"
         Children:
         - Name: Mode
+          Id: g=eca8fe5976d885ff64b99eef01531072
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_36
+    Id: g=ced944bcf16a4374a9f20e8acc9c2255
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=952d9d037679e7a43c73d752cb6c1b01
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=4b287e9382c14d7d19d0abea08d080f5
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/36/frequency"
         Children:
         - Name: Mode
+          Id: g=cac037b34fae26ce1930fd6ab49aef9e
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=dfa6d276f0cbd9d213240b1103f51c61
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=86bd2ffc8e92f90043bee76332e73c49
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/36/nome"
         Children:
         - Name: Mode
+          Id: g=cf04bf446e6a5b989e390765b09c68c6
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=3d20b9778b83f536fc2aa41346bd821a
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=784249c4cb51e62c9730d93836465d4c
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/36/speed"
         Children:
         - Name: Mode
+          Id: g=a5843d82a5d228806d062f9849c8dfc9
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_37
+    Id: g=1fce012107486f8ca55e72d9b07fcaca
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=de19369eee27897ffbe1df7e12be5509
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=41965617b53e1750d18933efa0ea4e1e
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/37/frequency"
         Children:
         - Name: Mode
+          Id: g=cb1abe60b64feda0b3238dd3c558b89c
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=09deac4415ff153c9ba11482adf934f9
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=a6ee6f724aefec57a2eb81f94a71e55f
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/37/nome"
         Children:
         - Name: Mode
+          Id: g=4bbab328443db1d425ef70e88f5b07d7
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=d1b4d68c2b19ab450061623f085ce718
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=5b9c8bd5ed96b3f9cad62ded5b337182
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/37/speed"
         Children:
         - Name: Mode
+          Id: g=2861aeb6a7b35b82c933e543858087fb
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_38
+    Id: g=7669c0b84c0a61df6bce664bd9acd03f
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=1701cb7e0f28beaf1d17fee7aff8e173
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=85ccf32c68448ca1e70a4aa05d5c3bd6
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/38/frequency"
         Children:
         - Name: Mode
+          Id: g=5d1df67037c71ea8b4dbaf0401f3cc8a
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=f6f04436cc9d12a3f8c59b49e1dda202
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=f7a63a800fabc20c2d1c540c8ec8c781
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/38/nome"
         Children:
         - Name: Mode
+          Id: g=208099aca05e2e931a8ddd86150078a5
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=490041f12c5646e6dda09fa407562fe7
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=84b4726d1b32cb418487a7a50a4da199
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/38/speed"
         Children:
         - Name: Mode
+          Id: g=4c55a59992c957e041964268c36ba215
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_39
+    Id: g=294f455491edef81c21c1b3a26da58d0
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=c4baf97da779c0388d456e6184dd1095
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=bdf958810da481fda4305518897cde67
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/39/frequency"
         Children:
         - Name: Mode
+          Id: g=31983b154ee234d025a9f5148da46ae7
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=c2c697ce6cd52989f19ab6d87ebd7dcc
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=45fd531253daedf8ac8c17701c89f0e4
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/39/nome"
         Children:
         - Name: Mode
+          Id: g=cddc9fbc4219005da9a6faa31c4be90d
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=92e1c4b2871be6cbdc192706a1952748
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=8dc442c6f0e25e869ab50b80924ed7d6
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/39/speed"
         Children:
         - Name: Mode
+          Id: g=06fa31a9e0eb91b61dc3903d527616bf
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_3
+    Id: g=950bdc01f0d76ed93363ab790029a164
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=6ea03d8a414b71842db2457e39493d3b
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=b8f121dfe78ad4f64a687dd799256fe4
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/3/frequency"
         Children:
         - Name: Mode
+          Id: g=48c2b3ae51ecec609f40dd5b6d049ff9
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=00816df8231ef01c1b9ea69087e57172
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=f80e486bf159b53b7bc49ab6546b653d
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/3/nome"
         Children:
         - Name: Mode
+          Id: g=37bb483b1959a00142ae8f994c6861b2
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=6709d82e3abb6770c20df48516d392d8
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=8d2529dff4875cd18a2cd51d1dec7d39
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/3/speed"
         Children:
         - Name: Mode
+          Id: g=6269d400b121cc970bf2b58c153a5ef8
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_40
+    Id: g=c8ff5fdbe30fb8ac89f5a9b775708c69
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=a5be5224d1204c8c070e01e61cdc2328
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=6965e5f2048e60e295027c5599853e66
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/40/frequency"
         Children:
         - Name: Mode
+          Id: g=60d1dc2072bb508284b531082694cd40
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=f9cea559cccad3d374d9538d4ecde271
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=39e6d5abf868039ebcfc293cb0a2e8fd
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/40/nome"
         Children:
         - Name: Mode
+          Id: g=8149ce3adf3b7e255580f7a22c1d54fd
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=37eb668c629564a58e0500eade16c05c
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=3dc9bfcbd973ed90b9f9a1ee544bc2f0
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/40/speed"
         Children:
         - Name: Mode
+          Id: g=313a96c96b3c2fcfe6ce96bd2263287d
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_41
+    Id: g=17a8b7b41bd4343be07f61b0228904be
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=6132d9ab512553a1f3df5c53ee4aa882
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=83e142b2578b812dba95bb032e4cce48
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/41/frequency"
         Children:
         - Name: Mode
+          Id: g=73dfc4db883fb8165713792a89a443bc
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=6007fca88182f89a02eeffaea4847bda
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=cbc6c5efbefea20bd5da757213cc976b
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/41/nome"
         Children:
         - Name: Mode
+          Id: g=a44d17227bb441fe7526287bb6bb4c20
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=2f364945593d4b077bd9d167a91c142b
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=57a2b3b17ff25d8082a77056f3fbc4cd
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/41/speed"
         Children:
         - Name: Mode
+          Id: g=10e90845f0fd4fa5697f9b0a6b7e195e
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_42
+    Id: g=fdd7353a1499615065795be1161f26e6
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=fad219f3b45facfe06038e1885522b03
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=fd99b9c1af3cbebb920a2d91805a7471
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/42/frequency"
         Children:
         - Name: Mode
+          Id: g=abf30deb9ec21b4e7c13f8bd05225eb6
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=4eea353f3d4fccc65332297b729582ac
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=f8544c7a048d21df4c9cf7f11367a98e
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/42/nome"
         Children:
         - Name: Mode
+          Id: g=da48ad83b538b567ead64895eacd8ab0
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=3dd0549f2af93d0ee3d87d08cb28b501
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=4ebd80da1ecf7c0fd5d5b382e1108fa1
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/42/speed"
         Children:
         - Name: Mode
+          Id: g=a8359cdc3d0f2d85ecce88d0b3dce48d
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_43
+    Id: g=a43f9dfcc57fcc3b9b068b3dbfcb55a6
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=7495f30cddd5aaaa6d79babb36f04b06
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=ea8207f03ec5cee5778b1734a8064446
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/43/frequency"
         Children:
         - Name: Mode
+          Id: g=f819a7d5dc66c94b789cb49f474b7b47
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=df8759879d7b88cb178d78bc707a4c24
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=53d2158c6cbdff7a24c08a74d14780fd
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/43/nome"
         Children:
         - Name: Mode
+          Id: g=e251cd98ceb3879359adb6737313093e
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=f9391e4debebde60ebfc5c2949a56324
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=a081e18534329f673ddc221d5c757d37
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/43/speed"
         Children:
         - Name: Mode
+          Id: g=0eac1d30c3781733375fdcb42e98f870
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_44
+    Id: g=a7a356fbf2b35d631decc6c4e6667374
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=536900d85bca5078866dff00b13d0962
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=892be66cd77e4483db7cbad50f8ff322
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/44/frequency"
         Children:
         - Name: Mode
+          Id: g=f26a736168cbb7217130a714a030714a
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=e97ca3bc9becd9bc1f1ebdd74b2d667c
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=fccfc970f79baa5fd72ec260419d32f8
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/44/nome"
         Children:
         - Name: Mode
+          Id: g=d653818b5cf40cba7be6a81678446e67
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=3864c6a3736f3ed36ad7865785e23990
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=1009d006fe93c1244310ebc55b28d4b6
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/44/speed"
         Children:
         - Name: Mode
+          Id: g=e872fe36f403dd8166dd252b1ba6456b
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_45
+    Id: g=f186bc2b8a179128a7eedd95f4551bda
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=f6ad350acd432ec4a8860c38950b2c2c
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=6c118fd3838db8f09b7cab17bffdd4cf
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/45/frequency"
         Children:
         - Name: Mode
+          Id: g=b518412623d1a075a421499495a097af
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=1143163fc0963e51eb5d3dc625e503fb
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=5ba1d8fd6b10926033f60a867f6c8d09
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/45/nome"
         Children:
         - Name: Mode
+          Id: g=ca2f09eec311496060f87ccafa64c4aa
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=9331fb058d42718b00af9d3715af87be
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=416b1981e8ba29ce34dfbdd5e40abee3
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/45/speed"
         Children:
         - Name: Mode
+          Id: g=b3e296e9a855a648bb1bdb27ea892616
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_46
+    Id: g=29863e91ae8ec0f8288da99bae999286
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=da4895d83a7d78a134f3835dc3ba86a7
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=27ba94632ebbe516f3a0b771605643e1
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/46/frequency"
         Children:
         - Name: Mode
+          Id: g=57d5fecb5a9faaf403b3727f7510fd18
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=fc4cdc696493c3d4474f36b696e01eca
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=3c6ecc81bf03eabc91fd75367b3f9d63
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/46/nome"
         Children:
         - Name: Mode
+          Id: g=0651103198c70f1c2e28cb451b276644
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=d36656749a1e6062cbdb122e54b202c5
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=779d61a8a00ab6f25a48a07dc727e3b8
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/46/speed"
         Children:
         - Name: Mode
+          Id: g=77915c8c14be4832920b115f9b126261
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_47
+    Id: g=07cbc9b6e784583e9798777588e4aea1
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=32355eb146ade64faf78edc69359fdbc
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=140ea912d8ca4eb13fd3070d79a8f179
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/47/frequency"
         Children:
         - Name: Mode
+          Id: g=ef2f5abef7dc19683caf2abf46732bcb
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=5a54ff02441f75bb20720bf56b2aa121
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=612a4684ddf5faff2f15e1bac24fb067
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/47/nome"
         Children:
         - Name: Mode
+          Id: g=98d6df71a7a39f8bb5e7b56ced49b0a2
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=4bc49ca3133d8c629e7c79e997c39a42
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=a94463d277b21a85496abb1be8021ff2
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/47/speed"
         Children:
         - Name: Mode
+          Id: g=04950b55864d15d4416785eed9a4a5a6
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_48
+    Id: g=532803ed99002730a8aed4e0d8604719
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=512b2630a714af617b2585a87dfeb104
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=7eb139f2c1f56b944789164f7c2b8fea
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/48/frequency"
         Children:
         - Name: Mode
+          Id: g=ad010b048fa2ae688fd645f5004ab3d5
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=40842911281fdfd39f45580dbbbdbaff
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=cb890f99c5c7a70cba30b94f70049c52
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/48/nome"
         Children:
         - Name: Mode
+          Id: g=b6299f5c1c30731284380c178cb2ca15
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=3f5b19255bfa0d2590f6fe1316bda585
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=74791008c970f9ba98249820d29fe354
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/48/speed"
         Children:
         - Name: Mode
+          Id: g=1e1dcf7377e174e20d5fa81f385b573d
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_49
+    Id: g=23ba2073dedfc698a2e7f75b802936f1
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=610dcaea5f4b74f111fed700dad22c53
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=085a00efc7b538cf47af94e9e9038bd3
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/49/frequency"
         Children:
         - Name: Mode
+          Id: g=209c2650b01612ed61dbc268225f7085
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=c7fbb2b752314c206d9b5c0119c77cc3
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=4163f4ae9ee911ddcc9c722773aa90b2
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/49/nome"
         Children:
         - Name: Mode
+          Id: g=0ef65d35bcd137e7a1f9f0ea22187f39
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=05087809aa8f5556d9831d018a3ba0e5
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=b09e923d139105d0046aba2ad8a4c892
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/49/speed"
         Children:
         - Name: Mode
+          Id: g=14b17168fe617d15fab1e7e5c35fbf64
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_4
+    Id: g=c0b9ecac6de17fbb1e524c3365cc3ea3
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=8809fac338043d07285e75ab74f84ee8
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=84242d7a9f3fb94d388d6d09e1b19ce7
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/4/frequency"
         Children:
         - Name: Mode
+          Id: g=c911be8438f745e88ee060358a094d26
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=407b984dbf9d1d7bcf8d3ef9b8c3a8fc
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=a33b204b9cead656f2fa388a76a25134
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/4/nome"
         Children:
         - Name: Mode
+          Id: g=b2e76d75087491367b79ba7ee83915a0
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=622aae6ec0e4b20477f636fa66aaf0a4
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=e0c51930c8c9732ddb8cdb9697238f8c
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/4/speed"
         Children:
         - Name: Mode
+          Id: g=7fd5daaec8efe7c69ab27b1837d210a9
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_5
+    Id: g=3004d8fb28a076875bb01ff0e190ed77
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=925b6715db7601f2895f58665d3cf376
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=d71ca89a92d0aa95392de1b4de755566
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/5/frequency"
         Children:
         - Name: Mode
+          Id: g=eee468149dd504549dbfc16d797ef0c8
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=be127a2917ad0fc5d2c2fd2d1e59101e
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=0936c15bfd3510545e6d35e4f5a1deb2
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/5/nome"
         Children:
         - Name: Mode
+          Id: g=0eb2cd819bfe16273ddbb37da130248b
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=cc6df43ee252800c24468d584caecb1c
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=2a974ba823a468488d63ac877e8ace9f
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/5/speed"
         Children:
         - Name: Mode
+          Id: g=fa66bc209f6ee5b14689d85b9363c251
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_6
+    Id: g=7ffe6c4eb0d3f7bd4e4f749cc0bbeebf
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=dee336d6773d029f8d4b74e6ef0d6cbc
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=17bcd2cd22348a541c752cfff05bc09e
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/6/frequency"
         Children:
         - Name: Mode
+          Id: g=deef0ee318cd3be049b0614b2d6600b8
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=1d3a27ffc0ebc52ce9242e74a92d0ca6
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=e713027982accb1fee1c33fd064a229c
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/6/nome"
         Children:
         - Name: Mode
+          Id: g=5753f852cf349fb3e53b1dd1882b24a3
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=8ce733a02cbe44a8e1f41c8258f33ad7
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=d84ac45cd48e9770d0b34bf1660fccf3
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/6/speed"
         Children:
         - Name: Mode
+          Id: g=1fde507e77099cf67c6145150cd21c4b
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_7
+    Id: g=f2ae18a2157aa7fa7440f55e4b8097f7
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=1c3702360603ccc5d3a859fecef1e9bf
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=9a44ddb2c46f5c5e3d776c1d4a0fb7aa
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/7/frequency"
         Children:
         - Name: Mode
+          Id: g=3b0eca32580c6a1b57b068a0bcbbcd69
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=6c6686b27ae7d731ae79e06c266a06b2
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=ada31a77e4950cbe2ef16cf2c7db485e
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/7/nome"
         Children:
         - Name: Mode
+          Id: g=9a1ad5859a4180d5c437bae296fd21c8
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=aec4d67dbea4e8317bf82b4d5a4d9d0f
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=3a0b913c1e9a3dce67778dc4a731014c
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/7/speed"
         Children:
         - Name: Mode
+          Id: g=08db365100546ec4565213fd76ed094f
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_8
+    Id: g=7934f2b2b4ab33c00f1198e7e4ea2cff
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=28c06dad7a245738b8cb994af17e3f4d
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=ab34dda06d5a02c0040647b9879b07b8
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/8/frequency"
         Children:
         - Name: Mode
+          Id: g=10830b778653a41f2aba9d68295b6214
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=3267025f18581c6080a0fb9976893ac2
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=a967d014d3626d2a5fdd564d70e45aee
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/8/nome"
         Children:
         - Name: Mode
+          Id: g=c4715bd95c526e288f38d49acf2b2e11
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=6fee1eeca5829fe19d223cdfa71d257d
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=be51071c162f47d4f0e5fa390eb7a3b9
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/8/speed"
         Children:
         - Name: Mode
+          Id: g=5714ae01e7ef8b7ec84d8aaae3d2b826
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayMotori_9
+    Id: g=c1c296f777180d4ec2d9ec677b9d4f0a
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=df96452956e0d6e76ad119d244b2a9f6
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=8d8957958ca5331edc72c951965d6a9a
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/9/frequency"
         Children:
         - Name: Mode
+          Id: g=a4dfde77dda3d08697f2b7a95debf7af
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=0f168d53996370eb579dd62dc3fc5b40
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=a13d20967ee9bdb8e90e62a1b3ba3ce9
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/9/nome"
         Children:
         - Name: Mode
+          Id: g=85fee0c8edcd3171756fb3986aeea417
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=1b7263817992342cb1931567e4fc45d8
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=d1c61dff56e0c5c1f594b7172199ca83
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayMotori/9/speed"
         Children:
         - Name: Mode
+          Id: g=5b6300b0d09fc6270a196f3ebfe59c0a
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: arrayStringhe
+    Id: g=b772c2b42d5f6d2017a2bdb80ae38533
     Type: BaseDataVariableType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [10]
     Children:
     - Name: DynamicLink
+      Id: g=b9c79381abfa718c017104e39969a8ca
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/arrayStringhe"
       Children:
       - Name: Mode
+        Id: g=35e43b10d9a21bf06d5285a214cf4aa5
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: attivaRicetta
+    Id: g=86f308d53b78c5462a26388ae7fb4815
     Type: BaseDataVariableType
     DataType: Boolean
     Children:
     - Name: DynamicLink
+      Id: g=9e8f8b548b0227e508fac57b2d816978
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/attivaRicetta"
       Children:
       - Name: Mode
+        Id: g=4c2da91be7d85704600f43a83c47dbba
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: bStart
+    Id: g=76d993159f619779b2af1ed6a2635a77
     Type: BaseDataVariableType
     DataType: Boolean
     Children:
     - Name: DynamicLink
+      Id: g=884dd99230215928b8df8d84fd662ff7
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/bStart"
       Children:
       - Name: Mode
+        Id: g=a96776a9519a39c914141b378b2a6f59
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: Copy_2_of_var2
+    Id: g=37f928bd4b2dda316679f86cca01d337
     Type: BaseDataVariableType
     DataType: Int16
     Children:
     - Name: DynamicLink
+      Id: g=9436b34af23ea5bd51c9419a107712f9
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/Copy_2_of_var2"
       Children:
       - Name: Mode
+        Id: g=dba945aa72469201487bd3cdc804d963
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: Copy_of_var2
+    Id: g=a77a3f5b56ffa693525c21ff36d42c3c
     Type: BaseDataVariableType
     DataType: Int16
     Children:
     - Name: DynamicLink
+      Id: g=dbd15b2cef403da79af0c3ed2acb4279
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/Copy_of_var2"
       Children:
       - Name: Mode
+        Id: g=798d5fb323288f263f8abec7e1163f57
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: incrementa
+    Id: g=38107dc9e634c1f811e0ccbbe5d65293
     Type: BaseDataVariableType
     DataType: Int16
     Children:
     - Name: DynamicLink
+      Id: g=4ab55bdbdfd239f3f91ed3865190c440
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/incrementa"
       Children:
       - Name: Mode
+        Id: g=f0846aeb9279852ae14da0619c484dd2
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: Motore1
+    Id: g=30d466f06aa124677b66fdb6b8219422
     Type: BaseObjectType
     Children:
     - Name: frequency
+      Id: g=5c5a48cc0830ad950c9533be07d6f76f
       Type: BaseDataVariableType
       DataType: Float
       Children:
       - Name: DynamicLink
+        Id: g=7b77db47a98a076533cc28d7f6ea81bb
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/Motore1/frequency"
         Children:
         - Name: Mode
+          Id: g=7a04a6b69cd75f4f442bd39b6f0ddee5
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: nome
+      Id: g=165d682b57bdb0c1382aef2f790a8ae9
       Type: BaseDataVariableType
       DataType: String
       Children:
       - Name: DynamicLink
+        Id: g=491aaa32b64f15cba7aa88b8a5f71159
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/Motore1/nome"
         Children:
         - Name: Mode
+          Id: g=ac0b6f46d12265a977a1c7ed2a6c8997
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: speed
+      Id: g=116c795a8ed9fbcaa056b3ca91f44044
       Type: BaseDataVariableType
       DataType: Int16
       Children:
       - Name: DynamicLink
+        Id: g=e6196a37ebea5f37eaaeb97cca9aaac7
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/Motore1/speed"
         Children:
         - Name: Mode
+          Id: g=79935a1860410864a3a424f6a27d7466
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
   - Name: NomeRicetta
+    Id: g=c7efb305621afc6a5a2221dfd41b3e9f
     Type: BaseDataVariableType
     DataType: String
     Children:
     - Name: DynamicLink
+      Id: g=03b75f790351f2c72adaa27fb86a166d
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/NomeRicetta"
       Children:
       - Name: Mode
+        Id: g=60468ebdf056bfc09f9046825e140012
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: tempo
+    Id: g=8d9a9e1f60628181905d4e549630a0e6
     Type: BaseDataVariableType
     DataType: Duration
     Children:
     - Name: DynamicLink
+      Id: g=ee6a6416e17e0fba3765fd391ca91c20
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/tempo"
       Children:
       - Name: Mode
+        Id: g=cc8a2796f871099fce5f13353a2e19c4
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: test
+    Id: g=de157ec460a6b2e4dfbdf5f2b3cc911a
     Type: BaseDataVariableType
     DataType: Int16
     ValueRank: OneDimension
     ArrayDimensions: [11]
     Children:
     - Name: DynamicLink
+      Id: g=5850469e57e0a004dcda8645e52518c9
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/test"
       Children:
       - Name: Mode
+        Id: g=1f25f2240d8f82a7fae39c95e1db861a
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: var1
+    Id: g=d0e1f94270e5f269c475d692ed61697e
     Type: BaseDataVariableType
     DataType: Boolean
     Children:
     - Name: DynamicLink
+      Id: g=f27605c6bcbfd747c830177964abf8fc
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/var1"
       Children:
       - Name: Mode
+        Id: g=a0a73fd28423faddc063f64076a48fef
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: var2
+    Id: g=756d27c7c478709171249288e00075ca
     Type: BaseDataVariableType
     DataType: Int16
     Children:
     - Name: DynamicLink
+      Id: g=845bb611adbea6d29064edafe3de7ebd
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/var2"
       Children:
       - Name: Mode
+        Id: g=7fbd5211e174c79c7a5f9cf4a9f2b4c3
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
