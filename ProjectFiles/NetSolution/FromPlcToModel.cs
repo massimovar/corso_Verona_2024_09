@@ -6,6 +6,7 @@ using FTOptix.HMIProject;
 using FTOptix.NetLogic;
 using System.Linq;
 using UAManagedCore;
+using FTOptix.OPCUAServer;
 
 #endregion
 

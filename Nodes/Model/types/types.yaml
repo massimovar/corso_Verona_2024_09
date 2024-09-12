@@ -1,0 +1,16 @@
+Name: types
+Type: FolderType
+Children:
+- Name: MyMotor
+  Id: g=cfa3b1dcf12501b77e6f29ad62ed37ad
+  Supertype: BaseObjectType
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean

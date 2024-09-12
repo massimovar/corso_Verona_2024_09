@@ -1,0 +1,52 @@
+Name: motors
+Id: g=4baea29f1feade4f9f8df0f3116980fa
+Type: FolderType
+Children:
+- Name: MyMotor1
+  Id: g=1dbf379dd79bdc552fe83210d99d3771
+  Type: MyMotor
+  Children:
+  - Name: On
+    Id: g=daf022c87117a3a4f7d96e67ed061137
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Id: g=fe8262198ac7e46ffb4cb2664cd9f0c9
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: InAlarm
+    Id: g=669dc7c64cfc0b3480cfa370b705b241
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: MyMotor2
+  Id: g=aec8832352c607d5b6eb416ca3c0905c
+  Type: MyMotor
+  Children:
+  - Name: On
+    Id: g=76f1b736ef22412373db0d75e2874581
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Id: g=cb26fd21db0fc289b4a2b6162587a5fc
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: InAlarm
+    Id: g=04e6c442a5c79dec721918ad7378f70b
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: MyMotor3
+  Id: g=d5096aa59f7a34c74e4a3c4c62888dcb
+  Type: MyMotor
+  Children:
+  - Name: On
+    Id: g=a111c09589d3d4b8964e16f387fb8f2d
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Id: g=7f812aaa63f486feae2e625d48c9c21f
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: InAlarm
+    Id: g=180222007b3054e52f93af4cd0dab300
+    Type: BaseDataVariableType
+    DataType: Boolean

@@ -28,3 +28,19 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - File: VariabiliPLC/VariabiliPLC.yaml
+- Name: Variable1
+  Id: g=4cc5806348210c707a2e5ba0f20d7a75
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Variable2Changed
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Variable2"
+- File: types/types.yaml
+- File: motors/motors.yaml

@@ -89,16 +89,24 @@ Project:
    Uri: 'urn:FTOptix:MelsecFX3U:Net'
    Module: FTOptix.MelsecFX3U.Net
    Version: 1.0
+  23:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.1
+  24:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 1545
-  Objects: 199
-  ObjectTypes: 14
-  Variables: 1331
+  TotalNodeCount: 1943
+  Objects: 283
+  ObjectTypes: 17
+  Variables: 1642
   VariableTypes: 0
   DataTypes: 0
   Methods: 1
-  References: 20
+  References: 23
   ReferenceTypes: 0
-  Files: 31
+  Files: 34
  Nodes:
  - File: Nodes/corso_Verona_2024_09.yaml
